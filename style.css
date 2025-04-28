@@ -1,0 +1,74 @@
+
+body {
+    font-family: 'Noto Sans Bengali', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f6f7;
+}
+.topbar {
+    background: #006a4e;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+.logo {
+    width: 60px;
+    height: auto;
+}
+.title-text {
+    margin-left: 20px;
+}
+.title-text h1 {
+    font-size: 20px;
+    margin: 0;
+}
+.title-text h2 {
+    font-size: 16px;
+    margin: 0;
+}
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+.info h3 {
+    text-align: center;
+    color: #333;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 16px;
+}
+.download {
+    text-align: center;
+    margin-top: 20px;
+}
+.download a {
+    background: #28a745;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 18px;
+}
+.download a:hover {
+    background: #218838;
+}
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
